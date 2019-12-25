@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="github.jnlp">
+  <information>
+    <title>github</title>
+    <vendor>Xam 3xPloiTeR</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="github.jar" size="27197" download="eager" />
+    <jar href="lib\mp3spi1.9.5.jar" size="24696" download="eager" />
+    <jar href="lib\tritonus_share.jar" size="102723" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="github" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="SemesterProject.BrickBreaker"  name="github" />
+  <update check="always"/>
+</jnlp>
